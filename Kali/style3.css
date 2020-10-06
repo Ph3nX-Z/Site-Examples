@@ -1,0 +1,154 @@
+html{
+    background-color:rgb(104, 104, 104) no-repeat center fixed; 
+}
+* {
+    box-sizing: border-box;
+  }
+body{
+  margin-top: 0px;
+  margin-bottom:30px;
+}
+  
+.column {
+    margin-top: 5px;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align:center;
+    background:red;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.repo {
+  margin-top:250px;
+  font-family:georgia, serif;
+}
+
+.col0 {
+    width:100%;
+    text-align:center;
+    background: url(image_kal.jpg) fixed;
+    background-position-y:2000px;
+    margin-bottom: 50px;
+    margin-top:-50px;
+}
+.col1 {
+  background: rgb(139, 139, 139) no-repeat center fixed;
+  background-size: 1800px auto;
+  background-position-x: -300px;
+  background-position-y:100px;
+  z-index: 1;
+  margin-right: 0px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  opacity: 1;
+}
+.col1:hover {
+opacity: .5;
+}
+.col2 {
+  background:rgb(139, 139, 139) no-repeat center fixed;
+  z-index: 1;
+  margin-right: 0px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  opacity: 1;
+  margin-bottom:10px;
+}
+.col2:hover {
+opacity: .5;
+}
+.big {
+  font-size: 100px;
+  line-height: 1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  text-decoration: none;
+  color: rgb(139, 139, 139);
+}
+.shadow {
+  color: #bdcbf3;
+  background-color: #0051ff;
+  letter-spacing: .1em;
+}
+
+.ilfautunfond {
+  background:url(blue.jpg) no-repeat fixed;
+  background-size:2000px;
+}
+.scroll-downs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width :34px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid rgb(51, 117, 126);
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+  margin-left:915px;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: rgb(51, 117, 126);
+  animation-name: scroll;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+
+.acceuil{
+  font-size:30px;
+  color:rgb(148, 148, 19);
+}
+
+img{
+  max-width:100%
+  }
+  
+  .column10 {
+    margin-top: 5px;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align:center;
+    background:red;
+   text-align:center;
+   background:url(grey-background_exemple.jpg) fixed center no-repeat;
+   background-size:100%;
+   margin-top:200px;
+   font-size:20px;
+  }
+
+  .explain {
+    font-size:28px;
+    background: rgba(255, 255, 255, 0.116);
+    text-align:center ;
+    padding:1px;
+    text-shadow:black;
+    text-shadow:1px;
+  }
+  .espacer {
+    margin-top: 50px;
+  }

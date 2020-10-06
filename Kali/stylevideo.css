@@ -1,0 +1,37 @@
+.video {
+    width:100%;
+}
+.c-video {
+    width: 90%;
+    height: auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding:50px;
+}
+html{
+    background:url(grey-background_exemple.jpg)no-repeat fixed center;
+}
+.acceuil{
+    color:rgb(180, 164, 20);
+    font-size:25px;
+    margin-left: 45%;
+    margin-top:20px;
+}
+.ssh {
+    font-size:30px;
+    text-align:center;
+    background: url(image_kal.jpg) no-repeat center fixed;
+    background-position-y:-400px;
+    padding:10px;
+    margin-top:30px;
+}
+.accueuil{
+    height:auto;
+    background:black;
+    padding:50px;
+    text-align:left;
+}
